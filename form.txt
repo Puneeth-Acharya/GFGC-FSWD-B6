@@ -1,0 +1,12 @@
+forms
+
+->text
+->email
+->password
+->checkboxes
+->buttons
+->radio
+->submit buttons
+->menu
+->file
+etc
