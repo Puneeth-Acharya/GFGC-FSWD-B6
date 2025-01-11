@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element</title>
+    <style>
+        p::first-line
+        {
+           color: red;
+           background-color: aqua; 
+        }
+        p::first-letter
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            color: blue;
+        }
+        h2::before
+        {
+            content: "[";
+            color: red;
+        }
+        h2::after
+        {
+            content: "]";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis sequi suscipit laudantium quisquam, impedit officia dolore voluptate aliquid numquam quas qui. Laborum culpa consequatur officia quos tenetur eligendi deleniti dignissimos assumenda! Molestiae numquam rerum consectetur quod aperiam doloribus ullam velit. Officiis soluta itaque, nobis enim non nesciunt maxime autem accusamus distinctio ut unde laudantium dolorum magnam consequuntur illo culpa repellat dicta repudiandae neque incidunt! Itaque consequuntur, est accusamus tempore minus sunt saepe dolore qui ab culpa laboriosam sapiente unde quam obcaecati doloribus sit explicabo dolor atque modi voluptas dolorem natus alias maxime. 
+        Ex nostrum minus ducimus aut saepe nisi eveniet.</p>
+</body>
+</html>

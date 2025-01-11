@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Based pseudo Selector</title>
+    <link rel="stylesheet" href="./index14.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Sign-UP</legend>
+        <form action="">
+            <label>Name: </label>
+            <input type="text" name="username" required>
+            <p>Enter your Name</p>
+            <br>
+            <label >College: </label>
+            <input type="text" name="College" disabled>
+            <br>
+            <label >Phone Number: </label>
+            <input type="number" name="Phone" minlength="10" maxlength="10" required>
+            <p>Enter your Phone Number</p>
+            <br>
+            <label >Alternate Phone Number: </label>
+            <input type="number" name="Alternate Phone" minlength="10" maxlength="10">
+            <br>
+            <label >Email ID: </label>
+            <input type="email" name="email" required>
+            <p>Enter your Email ID</p>
+            <img class="valid" src="https://img.freepik.com/premium-vector/brand-quality-icon_1076610-91405.jpg" alt="no image">
+            <img class="invalid" src="https://image.similarpng.com/very-thumbnail/2021/06/Warning-icon.-The-attention-icon.png" alt="no image">
+            <br>
+            <label >Password: </label>
+            <input type="password" name="password" minlength="8" required>
+            <p>Enter your password</p>
+            <br>
+            <label >Age</label>
+            <input type="number" name="age" min="18" max="45">
+            <br>
+            <label >Gender</label>
+            <input type="radio" name="gender" checked>
+            <label >Male</label>
+            <input type="radio" name="gender" >
+            <label >Female</label>
+            <input type="radio" name="gender">
+            <label >Other</label>
+            <br>
+            <label >Location</label>
+            <input type="text" name="Location" value="Bengaluru" readonly>
+            <p>Only for Bengaluru Location</p>
+            <br>
+            <input type="submit" value="submit">
+
+        </form>
+    </fieldset>
+</body>
+</html>

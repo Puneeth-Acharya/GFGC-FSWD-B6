@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        div li /*targeted lement that are nested within other element regardless of the level*/
+        {
+           color: blue; 
+        }
+        ol>li
+        {
+            color:brown
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Web Develeopment</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo quisquam quaerat impedit corrupti! Impedit libero quidem non nostrum accusamus repellat ullam amet iste totam id, incidunt culpa dicta quasi dolorem voluptas magni?</p>
+        <p>Tools Used</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java Script</li>
+        </ul>
+    </div>
+    <p>Web Development can be classified into two ways:</p>
+    <ol>
+        <li>Frontend Develeopment</li>
+        <li>Baakend Development</li>
+    </ol>
+    <div>
+        <h3>Frontend Development</h3>
+        <p>The part of a website where the user <span style="color: red;">interacts directly</span> is termed as front end. It is also referred to as the client side of the application.</p>
+    </div>
+</body>
+</html>

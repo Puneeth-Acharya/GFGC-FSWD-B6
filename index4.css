@@ -1,0 +1,24 @@
+.container
+{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns:[o] 120px [t] 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+.div-item
+{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border: 2px solid red
+    
+}
+.c1
+{
+    grid-column: o/t; 
+}
+.c2
+{
+    grid-row: 1/2;
+}
+

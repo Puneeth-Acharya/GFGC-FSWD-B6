@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exact value Attribute Selector</title>
+    <style>
+        /* a[href="https://google.com"] Exact value attribute selector */
+        /* {
+            text-decoration: overline;
+            background-color: aqua;
+        }
+        a[href *="https"]
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        } */
+        /*  *-> contains
+            ^-> starts with
+            $-> ends with
+            |-> -seperated
+            ~ ->space seperated*/
+
+        a[href $= ".org"]
+        {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://google.com">Google</a> <br>
+    <a href="https://instagram.com">Instagram</a> <br>
+    <a href="https://wikipedia.com">Wikipedia</a> <br>
+    <a href="https://facebook.com">Facebook</a> <br>
+    <a href="https://sode-edu.in">SMVITM</a> <br>
+    <a href="https://sahyadri.in">Sahyadri</a> <br>
+    <a href="https://Jindalfoundation.org">JindalFoundation</a> <br>
+    <a href="https://tekkybenchtechnologies.com">TekkyBench technologies</a> <br>
+</body>
+</html>

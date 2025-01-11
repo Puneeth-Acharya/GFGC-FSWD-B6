@@ -1,0 +1,7 @@
+There are two types of element in HTML
+1. inline level element;- it will be displayed in the same line & css properties will be applied
+    to only to the content of the element
+2. Block level element:- Always diplays in different line and css properties is applied to the block.
+
+1. selector:-
+2.block model:-

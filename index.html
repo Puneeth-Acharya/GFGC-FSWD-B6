@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+        /*@media not|only mediatype and (expersions){
+        css property
+        }*/
+        @media only screen and (max-width:400px)
+        {
+            body
+            {
+                background-color: black;
+            }
+            .container
+            {
+                flex-direction: column;
+            }
+        }
+        .container
+        {
+            display: flex;
+        }
+        .item
+        {
+            border: 1px solid black;
+            width: 32px;
+            height: 32px;
+            padding: 20px;
+            margin: 10px;
+            background-image: linear-gradient(red, white);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>
